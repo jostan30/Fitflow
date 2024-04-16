@@ -1,0 +1,150 @@
+/* Resetting default margin and padding */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling the header */
+header {
+    background-image: url('../../gallery/photos/headerbg.webp'); /* Add background image */
+    background-size: cover; /* Cover the entire header with the background image */
+    color: #fff; /* Text color for the header */
+    text-align: center; /* Align text to the center */
+    padding: 20px 0; /* Add padding to the top and bottom of the header */
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    height: 162px;
+}
+
+header h1 {
+    margin: 0; /* Remove margin for the h1 element */
+    font-size: 40px; /* Adjust font size of the header text */
+}
+
+/* Styling the upload button */
+#uploadBtn {
+    background-color: #007bff; /* Blue color for the button */
+    color: #fff; /* Text color for the button */
+    padding: 10px 20px; /* Add padding to the button */
+    border: none; /* Remove border */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    margin-top: 10px; /* Add margin to the top of the button */
+    margin-left: 700px;
+}
+/* Styling the popup */
+#popup {
+    display: none; /* Hide the popup by default */
+    
+    top: 0;
+    left: 0;
+    width: 100%; /* Make the popup cover the entire viewport */
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+}
+
+.popup-content {
+    background-color: #fff; /* White background for the popup content */
+    width: 300px; /* Width of the popup content */
+    margin: 100px auto; /* Center the popup vertically and horizontally */
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Styling the close button */
+#closeBtn {
+    background-color: #007bff; /* Blue color for the button */
+    color: #fff; /* Text color for the button */
+    padding: 10px 20px; /* Add padding to the button */
+    border: none; /* Remove border */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+
+
+/* FEED  */
+
+/* CSS for feed container */
+.feed {
+   
+    display: flex;
+    width :700px;
+    flex-direction: column;
+    align-items: center; /* Center align everything horizontally */
+  }
+  
+  /* CSS for individual post */
+  .post {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align everything horizontally */
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+  /* CSS for post image */
+  .post img {
+    width: 300px; /* Adjust width as needed */
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  /* CSS for post caption */
+  .post p {
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  /* Styling the upload form */
+#uploadForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    height: 200px /* Adjust height as needed */
+}
+
+
+
+/*footer*/
+footer {
+    background-color: #232020;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo img {
+    width: 96px; /* Adjust according to your logo size */
+}
+
+.footer-info h2,
+.contact h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.phone-number {
+    font-weight: bold;
+}
+
+.email {
+    color: #fff;
+    text-decoration: none;
+}
+
+.email:hover {
+    text-decoration: underline;
+}
+
+.footer-info p {
+    width: 602px;
+}
