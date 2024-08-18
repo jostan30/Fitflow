@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calorie Tracker</title>
+<link rel="stylesheet" type="text/css" href="../static/css/calorie.css">
+
+</head>
+<body>
+    <header>
+        <h1>CALORIE CALCULATOR</h1>
+    </header>
+    <div class="container1">
+        <label for="currentWeight">Current Weight (in kg):</label>
+        <input type="number" id="currentWeight" placeholder="Enter your weight">
+        <label for="calorieIntake">Daily Calorie Intake (in kcal):</label>
+        <input type="number" id="calorieIntake" placeholder="Enter your calorie intake">
+        <label for="calorieBurned">Calories Burned (in kcal):</label>
+        <input type="number" id="calorieBurned" placeholder="Enter calories burned">
+        <button onclick="calculateCalories()">Calculate</button>
+        <div id="result"></div>
+    </div>
+
+    <div class="container2">
+        <h1>Calculate Calories Consumed</h1>
+        <input type="text" id="foodInput" placeholder="Enter food...">
+        <input type="number" id="quantityInput" placeholder="Quantity">
+        <button onclick="addFood()">Add Food</button>
+        <div id="foodList"></div>
+        <div>Total Calories: <span id="totalCalories">0</span></div>
+    </div>
+
+ 
+    
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-logo">
+                <!-- Place your logo image here -->
+                <img src="../gallery/photos/Fitflow_Logo.jpeg" alt="Logo">
+            </div>
+            <div class="footer-info">
+                <h2>About Us</h2>
+                <p>Our platform offers a comprehensive range of tools and resources to help you on your path to wellness. From personalized workout plans and nutrition guidance to community challenges and expert advice, we've got everything you need to succeed.
+                Whether you're looking to shed a few pounds, build muscle, or simply improve your overall health, FitFlow is here to help you reach your goals. Join our community today and let's embark on this journey together!</p>
+            </div>
+            <div class="contact">
+                <h2>Contact Us</h2>
+                <p>Phone: <span class="phone-number">+91 9820741785</span></p>
+                <p>Email: <a href="mailto: mathiasjostan@gmail.com" class="email">mathiasjostan@gmail.com</a></p>
+            </div>
+        </div>
+    </footer>
+
+   
+    
+
+    <script src="../static/js/calorie.js"></script> 
+</body>
+</html>

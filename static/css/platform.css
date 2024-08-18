@@ -1,0 +1,138 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling the header */
+header {
+    background-image: url('../../gallery/photos/headerbg.webp');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 162px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+/* Styling the search bar */
+#search-bar {
+    width: 80%;
+    max-width: 400px;
+    margin: 20px 550px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 26px;
+    border: none;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+#search-bar:hover,
+#search-bar:focus {
+    background-color: #f0f0f0; /* Light gray on hover/focus */
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto; /* Center the container */
+    max-width: 1200px; /* Limit the width of the container */
+}
+
+.video {
+    position: relative; /* Ensure proper positioning for the thumbnail and title */
+    width: 300px; /* Set a fixed width for the video container */
+    height: 200px; /* Set a fixed height for the video container */
+    margin: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.video img {
+    width: 100%; /* Ensure the image covers the entire box */
+    height: 100%; /* Ensure the image covers the entire box */
+    object-fit: cover; /* Cover the entire box with the image */
+}
+
+.video p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background to make text readable */
+    margin: 0;
+    padding: 8px;
+    color: #fff; /* Text color */
+    font-size: 14px; /* Adjust font size as needed */
+    text-align: center;
+}
+
+
+/*footer*/
+footer {
+    background-color: #232020;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo img {
+    width: 96px; /* Adjust according to your logo size */
+}
+
+.footer-info h2,
+.contact h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.phone-number {
+    font-weight: bold;
+}
+
+.email {
+    color: #fff;
+    text-decoration: none;
+}
+
+.email:hover {
+    text-decoration: underline;
+}
+
+.footer-info p {
+    width: 602px;
+}
+
+/* CSS for Exit Button */
+.exit-button {
+    display: block;
+    margin-top: 5px; /* Adjust margin as needed */
+    padding: 8px 12px; /* Adjust padding as needed */
+    font-size: 14px; /* Adjust font size as needed */
+    color: #fff;
+    background-color: #333; /* Button background color */
+    border: none;
+    border-radius: 35px;
+    height: 30px;
+
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.exit-button:hover {
+    background-color: #555; /* Darker color on hover */
+}
