@@ -24,7 +24,7 @@ app.use(bodyParser.json());
 
 
 // Connect to MongoDB once when the server starts
-const url = 'mongodb://127.0.0.1:27017/Fitflow'; // Specify the database name in the URL
+const url = <MonogoDb_URL>; // Specify the database name in the URL
 const client = new MongoClient(url);
 
 async function connectToDatabase() {
